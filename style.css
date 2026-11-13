@@ -1,0 +1,171 @@
+*{
+   font-family: "Montserrat", sans-serif;
+}  
+
+body{
+    margin: 0%;
+}
+
+ 
+h4{
+ font-family: "Oswald", sans-serif;
+}
+ 
+nav{
+    background-color: rgba(56, 51, 51, 0.756);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
+
+.link{
+    text-decoration: none;
+    color: rgb(68, 22, 41);
+    margin-right: 10px;
+    
+}
+
+.link:hover{
+    border-bottom: 3px solid rgb(166, 123, 44) ;
+}
+
+
+
+
+.listlink{
+    list-style-type: none ;
+    display: flex;
+}
+
+
+header{
+    background-image: url(./media2/55.webp);
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{color: rgb(0, 0, 0);
+font-size: 70px;
+}
+
+.linkhome{
+    color: rgb(0, 255, 247);
+    text-decoration: none;
+}
+
+
+.btnarticle{
+    background-color: rgb(68, 22, 41); ;
+    color: rgb(196, 209, 221);
+}
+
+
+.btnarticle:hover{
+    background-color: rgb(166, 123, 44);
+    color: black;
+
+}
+
+.titoliarticoli{
+    text-align: center;
+}
+
+.Immaginearticoli{
+    width: 300px;
+}
+.contenutoArticolo{
+    display: flex;
+    width: 60%;
+}
+
+aside{
+    background-color:rgb(186, 209, 164);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+
+
+main{
+    display: flex;
+    gap: 20%;
+}
+
+footer{
+    background-color:  rgba(56, 51, 51, 0.756);
+    display: flex;
+    justify-content: space-around;
+    color: goldenrod;
+    align-items: center;
+    height: 30vh;
+    margin-top: 100px;
+}
+
+.imgeserciziocss{
+    width: 50px;
+    height: 50px;
+    animation-name: icon;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    position: fixed;
+    top: 80vh;
+
+}
+
+@keyframes icon{
+    0%{
+        transform: translateY(50px);
+    }100%{
+        transform: translateY(0px);
+    }
+}
+
+
+
+@media screen and (max-width: 667px;){
+    .link{
+        font-size: 10px;
+        
+    }
+    .logo{
+        width: 50px;
+        height: 50px;
+    }
+    
+}
+
+.contenutoArticolo{
+    display: block;
+    width: 100%;
+}
+
+aside{
+    width: 100%;
+    display: block;
+}
+
+main{
+    display: block;
+}
+
+div{
+    margin: 50px 0px;
+}
+
+footer{
+    display: block;
+}
